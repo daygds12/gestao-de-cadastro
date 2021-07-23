@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;    
+}
+body {
+    overflow-x: hidden;
+    color: rgb(228, 18, 18);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/*Header*/
+header {
+    text-align: center;
+    color: #fcebeb;  
+    background:#161616; 
+}
+
+
+.intro-text .name {
+    padding-top: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.intro-text .name2 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+
+/*O que esperar*/
+.oqueesperar-item{
+    text-align: center;
+}
+
+.oqueesperar-itens{    
+   color: black;
+}
+
+.oqueesperar-item-Two{
+    width: 100%;
+    padding-right:0;    
+}
+
+@media screen and(max-width:576px) {
+    .oqueesperar-item {
+    display:none;       
+    }
+    #promo {
+    margin-top: 1rem;
+    }
+}
+
+@media screen and(max-width:720px) {
+    .oqueesperar-item {    
+    align-items: center; 
+    font-size: 1.9rem;
+    width: 100%;
+        
+    }
+}
+
+@media(min-width:940px) {
+    .oqueesperar-item {        
+        display: inline-flex;   
+        flex-wrap: wrap;    
+        padding-left: 3rem;  
+        
+    }
+}
+
+.card {
+    margin: .6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media(max-width:576px) {
+    .card {
+        margin-left: 6rem;     
+    }
+
+}
+
+.form-control {    
+    background-color:#fff;    
+    border-color: rgb(228, 18, 18);
+ }
+
+.btn{
+    margin-top:.4rem;    
+    margin-left: 38rem;
+    background-color: rgb(228, 18, 18);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.form-group{
+    font-weight: 700 ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Footer*/
+footer {
+    color: #fff;
+}
+
+.footer {
+    padding-top: 2rem;
+    background-color: #030303;
+}
+
+.footer-col {
+    margin-bottom: 1rem;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-social{
+    color: #fff;    
+    font-size: 1.5em;
+}

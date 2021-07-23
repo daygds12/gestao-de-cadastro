@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./clients.css">
+    <title>Gestão de cadastros</title>
+  </head>
+  
+  <body>
+    <div class="curve">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+       
+      </svg>
+    </div>
+    <h1 class="title">Tela de Cadastro</h1>
+  
+  <div class="container">
+      <form id="frmPerson" class="form-horizontal">
+          <div class="form-group">
+              <label for="txtID" class="col-sm-2 control-label">Nome completo</label>
+              <div class="col-sm-4">
+                  <input type="text" id="Nome" class="form-control" placeholder="Nome">
+              </div>
+          </div>                    
+          <div class="form-group">
+              <label for="txtName" class="col-lg-2 control-label">CPF</label>
+              <div class="col-sm-4">
+                  <input type="text" id="CPF" class="form-control" placeholder="CPF">
+              </div>
+          </div>
+        <div class="form-group">
+              <label for="txtName" class="col-lg-2 control-label">Telefone</label>
+              <div class="col-sm-4">
+                  <input type="text" id="Telefone" class="form-control" placeholder="Telefone">
+              </div>
+          </div>
+        <div class="form-group">
+              <label for="txtName" class="col-lg-2 control-label">Email</label>
+              <div class="col-sm-4">
+                  <input type="email" id="Email" class="form-control" placeholder="Email">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="txtPhone" class="col-lg-2 control-label">Endereço</label>
+              <div class="col-sm-4">
+                  <input type="text" id="Endereço" class="form-control" placeholder="Endereço completo">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="txtEmail" class="col-lg-2 control-label">CEP</label>
+              <div class="col-sm-4">
+                  <input type="text" id="CEP" class="form-control" placeholder="Digite somente com números">
+              </div>
+          </div>
+          <div class="form-group">
+              <div class="col-lg-offset-2 col-sm-4">
+                  <input type="submit" value="Salvar" id="btnSave" class="btn btn-success"/>
+              </div>
+          </div>
+      </form>
+  </div>      
+
+  <!--Dados salvos-->
+  <div class="container">
+      <table id="tblList" class="table table-bordered"></table>
+  </div>  
+
+    <!--Footer-->
+    <footer class="footer">
+      <h3><small>Direitos Reservados</h3></small>
+    </footer>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/src/components/clients.js"></script>  
+  </body>
+</html>
