@@ -1,4 +1,4 @@
-##Projeto criado para o Hiring coders Gama Academy
+##Projeto criado para o Hiring coders Gama Academy,sistema de cadastro localstorage
 
 ## TECNOLOGIA
 
